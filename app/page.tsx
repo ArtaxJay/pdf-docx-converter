@@ -24,37 +24,45 @@ export default function Home() {
 
         <FileUploader />
       </main>
-      <footer className='mt-16 bg-red-500 row-start-3 flex gap-6 flex-wrap items-center justify-center'>
-        <a
-          className='flex items-center gap-2 hover:underline hover:underline-offset-4'
-          href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <Image
-            aria-hidden
-            src='/file.svg'
-            alt='File icon'
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className='flex items-center gap-2 hover:underline hover:underline-offset-4'
-          href='https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <Image
-            aria-hidden
-            src='/window.svg'
-            alt='Window icon'
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
+      <footer className='mt-16 row-start-3 flex gap-6 flex-wrap items-center justify-center'>
+        <p className='text-black dark:text-white flex'>
+          Created for
+          <a
+            className='flex items-center gap-2 hover:underline hover:underline-offset-4 mr-1'
+            href='https://www.alxafrica.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='ml-1 p-1 rounded-full dark:bg-white'>
+              <Image
+                aria-hidden
+                src='/alx-logo.svg'
+                alt='alx logo icon'
+                width={16}
+                height={16}
+              />
+            </span>
+            ALX
+          </a>
+          By
+          <a
+            className='flex items-center gap-2 hover:underline hover:underline-offset-4'
+            href='https://github.com/Ola-Oluwajuwon'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='dark:bg-white p-1 rounded-full ml-1'>
+              <Image
+                aria-hidden
+                src='/github-logo.svg'
+                alt='github logo icon'
+                width={16}
+                height={16}
+              />
+            </span>
+            Ola-Oluwajuwon
+          </a>
+        </p>
       </footer>
     </div>
   );

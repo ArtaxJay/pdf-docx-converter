@@ -29,14 +29,8 @@ export default function RootLayout({
       suppressHydrationWarning
       lang='en'
     >
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FCFCFC] dark:bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FCFCFC] dark:bg-black overflow-y-hidden`}
       >
         <Providers>
           <Header />

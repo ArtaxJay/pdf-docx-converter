@@ -43,16 +43,16 @@ const Header = () => {
             <div className='px-20 flex items-center justify-between'>
               <div className='flex items-center justify-end pr-16 lg:pr-0'>
                 <Link
-                  href='/signin'
+                  href='https://github.com/ArtaxJay/pdf-docx-converter'
                   className='hidden px-7 py-3 text-base font-medium text-black hover:opacity-70 dark:text-white md:block transition duration-300'
                 >
                   Star this project on GitHub
                 </Link>
                 <Link
-                  href='/signup'
+                  href='https://github.com/Ola-Oluwajuwon'
                   className='ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-black dark:text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9'
                 >
-                  Sign Up
+                  Ola-Oluwajuwon
                 </Link>
                 <div>
                   <ThemeToggler />
